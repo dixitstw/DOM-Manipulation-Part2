@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background: url(https://raw.githubusercontent.com/CodeLab98/DOM-P2-Source-Code/main/Master%20DOM%20Manipulation%20P2/img/project-4.jpg) no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.container {
+    width: 40%;
+    height: 250px;
+    background-color: #ffff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    width: 50px;
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: orange;
+}
+
+#reset {
+    background-color: red;
+}
